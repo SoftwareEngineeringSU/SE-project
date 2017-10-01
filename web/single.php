@@ -117,10 +117,10 @@
 									<p>Tickets:</p><br>
 									<span>Early Bird Ticket:</span><br>
 									<input type="radio" name="earlyticket" value="vip" id="earlyticket">VIP;
-									<input type="radio" name="earlyticket" value="regular" id="earlyticket">Regular;
+									<input type="radio" name="regular" value="regular" id="regular">Regular;
 									<span>Advanced Ticket:</span>
 									<input type="radio" name="earlyticket" value="vip" id="earlyticket">VIP;
-									<input type="radio" name="earlyticket" value="regular" id="earlyticket">Regular;
+									<input type="radio" name="regular" value="regular" id="regular">Regular;
 
 									<span>Quantity:</span>
 									<select>
