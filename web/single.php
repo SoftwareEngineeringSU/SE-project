@@ -114,6 +114,14 @@
 							
 							<div class="quantity_box">
 								<ul class="product-qty">
+									<p>Tickets:</p><br>
+									<span>Early Bird Ticket:</span><br>
+									<input type="radio" name="earlyticket" value="vip" id="earlyticket">VIP;
+									<input type="radio" name="earlyticket" value="regular" id="earlyticket">Regular;
+									<span>Advanced Ticket:</span>
+									<input type="radio" name="earlyticket" value="vip" id="earlyticket">VIP;
+									<input type="radio" name="earlyticket" value="regular" id="earlyticket">Regular;
+
 									<span>Quantity:</span>
 									<select>
 										<option>1</option>
