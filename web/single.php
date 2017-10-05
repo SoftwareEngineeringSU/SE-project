@@ -116,7 +116,18 @@
 								<ul class="product-qty">
 									<p>Tickets:</p><br>
 									<span>Early Bird Ticket:</span><br>
-									<input type="radio" name="earlyticket" value="vip" id="earlyticket">VIP;
+									<input type="radio" name="earlyticket" value="vip" id="earlyticket">VIP; 
+									<span>Quantity:</span>
+									<select>
+										<option>1</option>
+										<option>5</option>
+										<option>10</option>
+										<option>15</option>
+										
+									</select>
+									<br>
+									Date:.......
+							
 									<input type="radio" name="regular" value="regular" id="regular">Regular;
 									<span>Advanced Ticket:</span>
 									<input type="radio" name="earlyticket" value="vip" id="earlyticket">VIP;
@@ -125,12 +136,18 @@
 									<span>Quantity:</span>
 									<select>
 										<option>1</option>
-										<option>2</option>
-										<option>3</option>
-										<option>4</option>
 										<option>5</option>
-										<option>6</option>
+										<option>10</option>
+										<option>15</option>
+										
 									</select>
+									<br>
+									Date:......
+								</ul>
+								BOOK YOUR TICKET NOW!<br>
+								<ul>
+								<a href="#">BOOK TICKET</a><br><br>
+
 								</ul>
 							</div>
 								<div class="clearfix"> </div>
