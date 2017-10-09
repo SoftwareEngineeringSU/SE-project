@@ -114,38 +114,10 @@
 							
 							<div class="quantity_box">
 								<ul class="product-qty">
-									<p>Tickets:</p><br>
-									<span>Early Bird Ticket:</span><br>
-									<input type="radio" name="earlyticket" value="vip" id="earlyticket">VIP; 
-									<span>Quantity:</span>
-									<select>
-										<option>1</option>
-										<option>5</option>
-										<option>10</option>
-										<option>15</option>
-										
-									</select>
-									<br>
-									Date:.......
-							
-									<input type="radio" name="regular" value="regular" id="regular">Regular;
-									<span>Advanced Ticket:</span>
-									<input type="radio" name="earlyticket" value="vip" id="earlyticket">VIP;
-									<input type="radio" name="regular" value="regular" id="regular">Regular;
+												
 
-									<span>Quantity:</span>
-									<select>
-										<option>1</option>
-										<option>5</option>
-										<option>10</option>
-										<option>15</option>
-										
-									</select>
-									<br>
-									Date:......
-								</ul>
-								BOOK YOUR TICKET NOW!<br>
-								<ul>
+
+
 								<a href="#">BOOK TICKET</a><br><br>
 
 								</ul>
@@ -156,6 +128,72 @@
 								</div>
 							</div>
 						</div>
+						<p>Tickets</p><br>
+							<TABLE BORDER="6"    WIDTH="50%"   CELLPADDING="5" CELLSPACING="3">
+						   <TR>
+						      <TH COLSPAN="5"><BR><H3>Tickets</H3>
+						      </TH>
+						   </TR>
+						   <TH COLSPAN="5"><BR>
+						   	<H3>Early Bird Ticket</H3>
+						      </TH>
+						   <TR>
+						 
+						      <TH>Type of ticket</TH>
+						       <TH>Dates of Availabilty</TH>
+						       <TH>Quantity</TH>
+
+						   </TR>
+						   <TR ALIGN="CENTER">
+						      
+						      <TD>
+									<select>
+										<option>VIP</option>
+										<option>Regular</option>
+										
+										
+									</select> </TD>
+						      <TD>.....</TD>
+						      <TD><span>Quantity:</span>
+									<select>
+										<option>1</option>
+										<option>5</option>
+										<option>10</option>
+										<option>15</option>
+										
+									</select> </TD>
+						   </TR>
+						   <TH COLSPAN="5"><BR>
+						   	<H3>Advanced</H3></BR></TH>
+						   	<TR>
+						 
+						      <TH>Type of ticket</TH>
+						       <TH>Dates of Availabilty</TH>
+						       <TH>Quantity</TH>
+
+						   </TR>
+
+						   <TR ALIGN="CENTER"></TR>
+
+
+						      <TD><select>
+										<option>VIP</option>
+										<option>Regular</option>
+										
+										
+									</select> </TD>
+						      <TD>.....</TD>
+						      <TD><span>Quantity:</span>
+									<select>
+										<option>1</option>
+										<option>5</option>
+										<option>10</option>
+										<option>15</option>
+										
+									</select> </TD>
+						   </TR>
+						</TABLE>
+						
 						<div class="clearfix"></div>
 					</div>
 						<div class="latest products">
