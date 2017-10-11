@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html style="font-family: Roboto Light">
 <head>
@@ -17,6 +16,7 @@
 		 <link href='http://fonts.googleapis.com/css?family=Jockey+One|Open+Sans:300italic,400italic,600italic,400,600,700' rel='stylesheet' type='text/css'>
 		 <link href='http://fonts.googleapis.com/css?family=Audiowide|Open+Sans:300italic,400italic,600italic,700,300,600,400' rel='stylesheet' type='text/css'>
 		<!--//web-fonts-->
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 
@@ -129,7 +129,7 @@
 							</div>
 						</div>
 						<p>Tickets</p><br>
-							<TABLE BORDER="6"    WIDTH="50%"   CELLPADDING="5" CELLSPACING="3">
+							<table class="w3-table-all">
 						   <TR>
 						      <TH COLSPAN="5"><BR><H3>Tickets</H3>
 						      </TH>
@@ -137,14 +137,14 @@
 						   <TH COLSPAN="5"><BR>
 						   	<H3>Early Bird Ticket</H3>
 						      </TH>
-						   <TR>
+						   <TR class="w3-light-lavender w3-hover-red">
 						 
 						      <TH>Type of ticket</TH>
 						       <TH>Dates of Availabilty</TH>
 						       <TH>Quantity</TH>
 
 						   </TR>
-						   <TR ALIGN="CENTER">
+						   <TR class="w3-hover-grey" ALIGN="CENTER">
 						      
 						      <TD>
 									<select>
@@ -165,7 +165,7 @@
 						   </TR>
 						   <TH COLSPAN="5"><BR>
 						   	<H3>Advanced</H3></BR></TH>
-						   	<TR>
+						   	<TR class="w3-hover-blue">
 						 
 						      <TH>Type of ticket</TH>
 						       <TH>Dates of Availabilty</TH>
@@ -173,7 +173,7 @@
 
 						   </TR>
 
-						   <TR ALIGN="CENTER"></TR>
+						   <TR  class="w3-hover-text-lavender" ALIGN="CENTER"></TR>
 
 
 						      <TD><select>
