@@ -1,23 +1,33 @@
 <?php 
 
 	include "connection.php";
+	
+	session_start();
+	session_unset();
 
 
 	$first_name		=$_POST['first_name'];
 	$last_name		=$_POST['last_name'];
-	$gender			=$_POST['gender'];
-	$user_email		=$_POST['user_email'];
-	$user_phone		=$_POST['user_phone'];
+	$email			=$_POST['email'];
+	$phone			=$_POST['phone'];
 	$password		=md5($_POST['password']);
+	$user_type 		="user";
 
+	$sql_user="INSERT INTO `users`(`first_name`, `last_name`, `email`, `phone`, `password`, `user_type`)
+				 VALUES 	('$first_name', '$last_name', '$email', '$phone', '$password', '$user_type')";
 
-	$sql_user="INSERT INTO `tbl_users`(`user_email`, `first_name`, `last_name`, `gender`, `password`, `phone`)
-			   VALUES 				  ('$user_email','$first_name','$last_name','$gender','$password','$user_phone')";
-
+	$result=mysqli_num_rows(mysqli_query($connection,"SELECT * FROM `users` WHERE `email`='$email'"));
+	if ($result)
+	{
+	echo "<script> window.location='/web/user.php';alert('User already present in database');</script>";
+	die();
+	}
 		
-	mysqli_query($connection,$sql_user);
-	echo "<script> window.location='/web/user.html';</script>";
-	$connection->close();
+	$result=mysqli_query($connection,$sql_user);
+
+	$_SESSION['email']=$email;
+	$_SESSION['user_type']=$user_type;
+	echo "<script> window.location='/web/index.php';</script>";
  
 
  ?>
